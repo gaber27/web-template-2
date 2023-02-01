@@ -1,0 +1,153 @@
+:root
+{
+    --dark-color:#19283F;
+    --green-color:#00C7C0;
+    --red-color:#FF3150;
+    --yellow-color:#FFC501;
+    --section-color:#EFF7FA;
+
+}
+
+
+body
+{
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Start Nav Bar */
+
+.navbar
+{
+    background-color: var(--dark-color);
+}
+
+.navbar .navbar-nav .nav-link
+{
+    color: white;
+}
+.navbar .navbar-nav .nav-link.active,
+.navbar .navbar-nav .nav-link:focus,
+.navbar .navbar-nav .nav-link:hover
+{
+    color: var(--green-color);
+}
+
+.search
+{
+    border-left: 1px solid var(--green-color) ;
+}  
+.search svg{
+color: var(--green-color);
+}
+
+
+.navbar .navbar-toggler
+{
+    color: white;
+    font-size: 24px;
+    border-color: white;
+}
+
+.navbar .navbar-toggler:focus
+{
+    box-shadow: none;
+}
+.navbar .navbar-toggler[aria-expanded='true']
+{
+    border-color: var(--green-color);
+}
+
+/* @media(max-width:991px)
+{
+    .search 
+    {
+        display:none;
+    }
+} */
+/* End Nav Bar */
+
+
+
+/* Start Landing */
+
+.main-btn
+{
+    background-color: var(--red-color);
+    border-color: #707070;
+    color: var(--yellow-color);
+    width: 120px;
+}
+
+.landing .btn
+{
+    width: 170px;
+}
+
+.btn.focus,
+.btn:hover
+{
+    background-color: white;
+    border-color: white;
+    color: var(--green-color);
+}
+
+.main-title::after
+{   
+    content: "";
+    width: 100px;
+    height: 2px;
+    background-color: var(--green-color);
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%) ;
+    
+}
+
+.landing
+{
+    background-color: var(--dark-color);
+    min-height: calc(100vh - 54px);
+    
+}
+/* .landing h1
+{
+ color: #F0F8FB;
+}
+.landing p
+{
+ color: #A8B9C0;
+} */
+/* End Landing */
+
+/* Start features */
+.features 
+{
+    background-color: #dedede;
+    height: 100%;
+    width: 100%;
+}
+.features .icon-holder
+{
+    height: 200px;
+}
+.features .icon-holder svg
+{
+    left: 50%;
+    transform: translateX(-50%);
+}
+.features .icon-holder .number
+{
+    font-size: 12rem ;
+    color: var(--section-color);
+}
+.features .icon-holder .icon
+{
+    color: var(--green-color);
+    
+}
+.features .feat h4
+{
+    color: var(--yellow-color)
+    
+}
+/* End features */
