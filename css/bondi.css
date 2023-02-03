@@ -151,3 +151,61 @@ color: var(--green-color);
     
 }
 /* End features */
+
+/* Start Our Work */
+.our-work 
+{
+
+    background-color: var(--section-color);
+}
+.our-work  ul .active
+{
+
+    background-color: var(--red-color);
+    color: var(--yellow-color);
+    border-radius: 10px;
+}
+.our-work ul li
+{
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+}
+
+.our-work ul li:not(.active):hover
+{
+    color: var(--red-color);
+}
+
+.our-work .box
+{
+    padding: 5px;
+    overflow: hidden;
+    position: relative;
+}
+
+.our-work .box::before
+{
+    content: attr(data-work);
+    position: absolute;
+    background-color: var(--red-color);
+    /* background-color: #00c7c040; */
+    width: calc(100% - 10px);
+    height: calc(100% - 10px);
+    display: flex;
+    justify-content: center;   
+    align-items: center; 
+    font-weight: bold;
+    color:var(--section-color);
+    transition: 0.5s;
+    font-size: 1.5rem;
+    /* display: none; */
+    transform: translateX(calc(-100% - 5px));
+}
+.our-work .box:hover::before
+{
+    /* display: flex; */
+    transform: translateX(0);
+}
+
+
+/* End  Our Work */
