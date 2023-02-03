@@ -218,3 +218,29 @@ color: var(--green-color);
 }
 
 /* End  Stuff */
+/* Start Team */
+.our-team
+{
+    background-color: var(--section-color);
+    
+}
+.our-team h2
+{
+    color: #FFC501;
+    
+}
+
+.our-team .box h4
+{
+    background-color: var(--green-color);
+}
+.our-team .box img
+{
+    transition: 0.5s;
+}
+.our-team .box img:hover
+{
+    width:200px;
+
+}
+/* End  Team */
