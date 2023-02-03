@@ -12,6 +12,7 @@
 body
 {
     font-family: 'Roboto', sans-serif;
+    min-height: 10000px;
 }
 
 /* Start Nav Bar */
@@ -242,5 +243,9 @@ color: var(--green-color);
 {
     width:200px;
 
+}
+.project
+{
+    background-color: var(--dark-color);
 }
 /* End  Team */
