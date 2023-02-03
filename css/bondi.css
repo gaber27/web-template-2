@@ -75,7 +75,6 @@ color: var(--green-color);
     background-color: var(--red-color);
     border-color: #707070;
     color: var(--yellow-color);
-    width: 120px;
 }
 
 .landing .btn
@@ -169,7 +168,9 @@ color: var(--green-color);
 {
     padding: 0.5rem 1rem;
     cursor: pointer;
+    
 }
+
 
 .our-work ul li:not(.active):hover
 {
@@ -206,6 +207,14 @@ color: var(--green-color);
     /* display: flex; */
     transform: translateX(0);
 }
-
-
 /* End  Our Work */
+/* Start  Stuff*/
+
+.stuff .description
+{
+
+    max-width: 500px;
+
+}
+
+/* End  Stuff */
