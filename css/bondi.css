@@ -249,9 +249,45 @@ color: var(--green-color);
 }
 /* End  Team */
 
+
+/* Start  Blog */
+
 .blog .cotainer
 {
     background-color:#FFC400 ;
     width: 100%;
     height: 100px;
 }
+/* End  Blog */
+
+/* Start  Subscribe */
+
+.Subscribe
+{
+
+    background-color: var(--yellow-color);
+}
+.Subscribe input[type = "email"]
+{
+    border: none;
+    border-bottom:1px solid white ;
+}
+
+.Subscribe input[type = "email"]:focus
+{
+    outline: none;
+}
+
+.Subscribe ::placeholder
+{
+    color: white;
+}
+
+.Subscribe input[type = "submit"]
+{
+    background-color: var(--dark-color);
+    color: var(--yellow-color);
+}
+
+
+/* End  Subscribe */
