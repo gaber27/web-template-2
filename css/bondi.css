@@ -288,6 +288,59 @@ color: var(--green-color);
     background-color: var(--dark-color);
     color: var(--yellow-color);
 }
-
-
 /* End  Subscribe */
+
+/* Start  Footer */
+
+.footer
+{
+
+    background-color: var(--dark-color);
+}
+.footer .copyright > span
+{
+    color: var(--green-color);
+}
+.footer .copyright div span
+{
+    color: var(--yellow-color);
+}
+.footer .contact ul svg{
+    width: 20px;
+    height: 20px;
+    transform: 0.3s;
+}
+.footer .facebook:focus,
+.footer .facebook:active,
+.footer .facebook:hover
+{
+    width: 25px;
+    height: 25px;
+    color: #1877f2;
+}
+.footer .twitter:focus,
+.footer .twitter:active,
+.footer .twitter:hover
+{
+    width: 25px;
+    height: 25px;
+    color: #aab8c2;
+}
+.footer .linkedin:focus,
+.footer .linkedin:active,
+.footer .linkedin:hover
+{
+    width: 25px;
+    height: 25px;
+    color: #8d6cab;
+}
+.footer .youtube:focus,
+.footer .youtube:active,
+.footer .youtube:hover
+{
+    width: 25px;
+    height: 25px;
+    color: #ff0000;
+}
+
+/* End  Footer */
